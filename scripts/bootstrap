@@ -140,6 +140,9 @@ install_dotfiles () {
 setup_gitconfig
 install_dotfiles
 
+# Install common npm modules
+npm i -g typescript ts-lint es-lint
+
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]
 then
