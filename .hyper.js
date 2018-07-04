@@ -45,7 +45,9 @@ module.exports = {
       copyOnSelect: false,
       defaultSSHApp: true,
     },
-    plugins: [],
+    plugins: [
+      'nord-hyper'
+    ],
     localPlugins: [],
   
     keymaps: {
