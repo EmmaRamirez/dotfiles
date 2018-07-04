@@ -1,5 +1,10 @@
 [alias]
         co = checkout
+        ci = commit
+        br = branch
+        st = status
+        undo = 'reset --soft HEAD^'
+        log = "log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
         fpush = push --force
 [color]
         diff = auto
@@ -9,6 +14,12 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+[commit]
+        gpgsign = true
+[user]
+        signingkey = 2C2905A3D20AEE5D
+        email = ramirez.emma.g@gmail.com
+        name = EmmaRamirez
 [apply]
         whitespace = nowarn
 [mergetool]

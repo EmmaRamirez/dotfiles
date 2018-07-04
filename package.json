@@ -1,0 +1,22 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "🧤emma's random config files",
+  "main": ".hyper.js",
+  "scripts": {
+    "git": "bash scripts/set-git-config",
+    "git:sync": "bash scripts/get-git-config",
+    "rust": "curl https://sh.rustup.rs -sSf | sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaRamirez/dotfiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmaRamirez/dotfiles/issues"
+  },
+  "homepage": "https://github.com/EmmaRamirez/dotfiles#readme"
+}
