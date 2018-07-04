@@ -11,6 +11,7 @@ brew 'postgresql'
 brew 'mariadb'
 brew 'wget'
 brew 'gnupg'
+brew 'python3'
 
 cask 'google-chrome'
 cask 'slack'
