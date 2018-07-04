@@ -1,0 +1,2 @@
+cp ~/.gitconfig git/.gitconfig
+echo 'Wrote git config to `git/.gitconfig`'

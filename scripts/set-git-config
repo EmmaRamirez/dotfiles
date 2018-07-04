@@ -1,0 +1,2 @@
+cp git/.gitconfig ~/.gitconfig
+echo 'Global git config changed!'
