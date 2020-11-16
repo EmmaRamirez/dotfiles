@@ -13,6 +13,7 @@ brew 'wget'
 brew 'gnupg'
 brew 'python3'
 brew 'elixir'
+brew 'heroku'
 
 cask 'google-chrome'
 cask 'slack'
