@@ -12,6 +12,7 @@ brew 'mariadb'
 brew 'wget'
 brew 'gnupg'
 brew 'python3'
+brew 'elixir'
 
 cask 'google-chrome'
 cask 'slack'
